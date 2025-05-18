@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Total Characters Card</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #d4a9f3;
+      color: #000;
+      width: 240px;
+      height: 120px;
+      border-radius: 12px;
+      font-family: Arial, sans-serif;
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .card p {
+      margin: 4px 0 0;
+      font-size: 16px;
+    }
+
+    .pattern {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 6px;
+      padding: 18px 10px;
+      box-sizing: border-box;
+    }
+
+    .circle {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+
+    .vertical-line {
+      position: absolute;
+      top: 20px;
+      right: 100px;
+      width: 12px;
+      height: 80px;
+      background: linear-gradient(to bottom, #ffffff33 20%, transparent 20%);
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>00</h1>
+    <p>Total Characters</p>
+    <div class="vertical-line"></div>
+    <div class="pattern">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+  </div>
+</body>
+</html>

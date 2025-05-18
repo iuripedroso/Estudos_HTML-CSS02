@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+
+            background-color: #194C8E;
+/**
+            background-image: url(background.jfif);
+            background-repeat: none;
+            background-size: cover;
+**/        }
+
+        .popup{
+            
+            background-color: antiquewhite;
+            width: 500px;
+            height: 350px;
+
+            /*sombra*/
+            box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+            padding: 1em;
+            
+        }
+
+        legend{
+            color: #363836;
+            font-size: 2.3em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        label{
+            font-size: 1em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #363836;
+            margin: 15px 5px 0 5px;
+            margin-top: 15px;
+            text-transform: uppercase;
+            display: block;
+        }
+
+        input, textarea{
+            border: 2px solid transparent;
+            background-color: antiquewhite;
+            border-bottom: solid 2px #000000;
+            padding: .75em;
+            margin: .5em 0 1em;
+            outline: 0;
+            color: rgb(0, 0, 0);
+
+            width: 100%;
+            height: 1vh;
+            box-sizing: border-box; /*garante que fique dentro da div*/
+        }
+
+        .login{
+            width: 150px;
+            height: 50px;
+            font-size: 1.3em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            color: antiquewhite;
+            margin-top: 30px;
+            margin-left: 0px;
+            
+
+            background-color: #2971B3;
+        }
+
+        .container_b{
+            display: flex;
+           
+        }
+
+        p{
+            margin: 45px 0px 0px 20px;
+            color: #363836;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .cadastro{
+            width: 180px;
+            height: 50px;
+            font-size: 1.3em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+            font-weight: 520;
+            border: none;
+            color: #484b48;
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-left: 0;
+
+            background-color: antiquewhite;
+        }
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+    <div class="popup">
+       
+        <legend>Login</legend>
+        <label for="user">usuario</label>
+        <input type="text" id="user" />
+
+        <label for="senha">senha</label>
+        <input type="text" id="password" />
+
+        <div class="container_b">
+        <button type="submit" class="login"></b>login<b></button>
+        <button type="submit" class="cadastro"></b>Cadastre-se<b></button>
+            
+        <p><a href="#">Esqueci minha senha</a></p>
+    </div>
+    </div>
+
+
+
+
+</body>
+</html>

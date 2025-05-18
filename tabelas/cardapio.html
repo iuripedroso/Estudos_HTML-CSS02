@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        th{
+            border: black solid 1px;
+            text-align: center;
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+            border: black solid 1px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+       <caption>Tabelas de Preços</caption>
+       <thead>
+        <tr>
+            <th>tipo 1</th>
+            <th>tipo 2</th>
+            <th>tipo 3</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td rowspan="3">alimento</td>
+            <td>hamburguer</td>
+            <td>25R%</td>
+        </tr>
+        <tr>
+           
+            <td>cachorro quente</td>
+            <td>25R%</td>
+        </tr>
+        <tr>
+            <td>pizza</td>
+            <td>25R%</td>
+        </tr>
+        <tr>
+            <td rowspan="4">bebida</td>
+            <td>agua</td>
+            <td>10R%</td>
+        </tr>
+        <tr>
+           
+            <td>suco</td>
+            <td>10R%</td>
+        </tr>
+        <tr>
+            <td>cerveja</td>
+            <td>10R%</td>
+        </tr>
+        <tr>
+            <td>refrigerante</td>
+            <td>10R%</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Valores Sujeitos a Alteração</td>
+        </tr>
+    </tfoot>    
+    
+    </table>
+    
+</body>
+</html>

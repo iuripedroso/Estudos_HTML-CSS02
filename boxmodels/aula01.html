@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: brown;
+        }
+
+        .container {
+            background-color: blueviolet;
+            display: flex;
+            gap: 10px;
+            height: 600px;
+            /*flex-direction: row;
+            flex-wrap: wrap;*/
+            /*como os elementos estão dentro do container com o display flex, eles se obrigam a caber dentro da div, porem perdem a sua estrutura og. (tamanho, largura) assim com o flex wrap eles se alinham sem perder suas definições*/
+        
+            /*flex-flow: column wrap;*/
+        }
+
+        .item {
+            background-color: aqua;
+            border: solid 2px black;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+    </div>
+
+
+
+</body>
+
+</html>

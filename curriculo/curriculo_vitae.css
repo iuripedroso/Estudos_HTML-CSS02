@@ -1,0 +1,109 @@
+body{
+    /*background-color: rgb(194, 255, 137);
+    background-color: #f0c095;*/
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("background.jpg");
+
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    
+
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+.bio{
+    font-style: italic;
+    text-align: center;
+}
+
+li{
+    margin-left: 10px;
+}
+
+.experiencia{
+    margin: 0px 0px 0px 10px;
+}
+
+.experiencia b{
+    text-transform: uppercase;   
+}
+
+.info{
+    border: solid 2px rgb(255, 229, 229);
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+hr{
+    color: antiquewhite;
+    border: 1px solid rgb(255, 229, 229);
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    border: 2px solid rgb(255, 229, 229);
+}
+
+.container img{
+    margin-right: 400px;
+    border-right: solid 2px rgb(255, 229, 229);
+    width: 15%;
+    height: 15%;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.divisoes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista_info li{
+    list-style-type: lower-greek;
+}
+
+.rodape{
+    background-color: rgb(255, 232, 202);
+    
+    margin-top: 50px;
+    
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    flex-direction: column; /* empilha os elementos */
+    display: flex;
+}
+
+.rodape p{
+    color: rgb(116, 70, 70);
+    
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: justify;
+    text-align-last: center;
+
+    width: 700px;
+    /*border: #000 solid 2px;*/
+    margin: 0;
+}
