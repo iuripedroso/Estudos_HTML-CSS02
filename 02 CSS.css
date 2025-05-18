@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(100, 255, 203);
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(49, 68, 48);
+   
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+
+h3{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+}
+
+p{
+    text-indent: 40px;
+    text-align: justify;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+a{
+    text-decoration: none;
+}
